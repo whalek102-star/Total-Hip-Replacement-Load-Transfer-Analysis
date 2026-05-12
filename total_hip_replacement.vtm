@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian">
+  <vtkMultiBlockDataSet>
+    <Block index="0" name="Femoral_Bone">
+      <DataSet index="0" file="femoral_component.vtk"/>
+    </Block>
+    <Block index="1" name="Prosthesis_Assembly">
+      <DataSet index="0" file="prosthesis_assembly.vtk"/>
+    </Block>
+    <Block index="2" name="Pelvic_Acetabulum">
+      <DataSet index="0" file="pelvic_component.vtk"/>
+    </Block>
+  </vtkMultiBlockDataSet>
+</VTKFile>
